@@ -1,0 +1,133 @@
+body {
+  background: rgba(255, 180, 160, 0.8);
+}
+
+main {
+  margin: 0 auto;
+  width: 300px;
+  border: 1px solid black;
+  background: #fff;
+
+}
+
+main ul {
+  margin-top: 0;
+  padding-left: 0;
+}
+
+main li {
+  text-decoretin: none;
+  display: inline-block;
+  position: relative;
+  padding-right: 25px;
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-botom: 25px;
+}
+
+main li:hover {
+  pointer: cursor;
+}
+
+main .menuBar {
+  background: #ffb4a0;
+  height: 50px;
+}
+
+main .activeMenu:after, main .activeMenu:before {
+  top: 140%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+main .activeMenu:after {
+  border-top-color: #ffb4a0;
+  border-width: 10px;
+  margin-left: -10px;
+  z-index: 10;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #869893;
+}
+
+.fa-check {
+  color: green;
+}
+
+.fa-exclamation {
+  color: red;
+}
+
+.name, .status {
+  position: absolute;
+  line-height: 50px;
+}
+
+.name {
+  left: 100px;
+}
+
+.status {
+  left: 260px;
+}
+
+.title {
+  /* right: 20px; */
+  color: #907865;
+  font-size: 12px;
+  margin-top: 1px;
+}
+
+.default {
+  background: #969389;
+}
+
+.searchMenu {
+  text-align: center;
+  position: relative;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #988781;
+  /*  #searchIcon {
+      position: absolute;
+      z-index: 1;
+      padding-top: 3px;
+      left: 25px;
+      color: $grey;
+    } */
+}
+
+.searchMenu input {
+  position: relative;
+  width: 70%;
+  border-radius: 17px;
+  border: 1px solid #907893;
+  line-height: 20px;
+  outline: none;
+  text-align: left;
+  padding-left: 40px;
+  padding-right: 20px;
+  font-size: 12px;
+}
+
+.searchMenu #searchLogo {
+  position: absolute;
+  z-index: 1;
+  padding-top: 3px;
+  left: 25px;
+  color: rgba(229, 219, 200, 0.9);
+}

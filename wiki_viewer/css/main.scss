@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+$blue: #598290;
+$blue-green: #00B4CC;
+
+html, body, .main  {
+  position: relatiave;
+  margin: 0; padding: 0;
+  padding-top: 10px;
+  width: 100%; height: 100%;
+  background-color: lighten($blue, 50%);
+  font-family: 'Open Sans', sans-serif;
+}
+
+ .section{
+   position: relative;
+   margin: 0 auto;
+   width: 85%;
+   top: 12%;
+   box-shadow: 2px 2px 2px $blue;
+   background: #fff;
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+   h2 {
+     padding-left: 30px;
+     padding-top: 12px;
+   }
+    p {
+      padding: 0px 9px 15px 30px;
+      text-aling: left;
+    }
+
+   &:hover {
+     border-left: 10px solid $blue;
+   }
+  }
+
+
+//input
+
+
+.search {
+  width: 100%;
+  position: relative
+}
+
+.searchTerm {
+  float: left;
+  width: 100%;
+  border: 3px solid $blue-green;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: $blue;
+
+}
+
+.searchButton {
+  position: absolute;
+  right: -50px;
+  width: 40px;
+  height: 36px;
+  border: 1px solid $blue-green;
+  background: $blue-green;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,108 @@
+
+@import "http://fonts.googleapis.com/css?family=Open+Sans:400,300,700";
+@import "http://weloveiconfonts.com/api/?family=entypo";
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+body {
+   background-image: url("http://wallpoper.com/images/00/44/66/90/aero-green-and-dark-blue_00446690.jpg");
+}
+
+.container {
+  /* color:
+   yellow #fff900; */
+  color: #FAF0E6;
+  margin: 0 auto;
+  margin-top: 120px;
+  /* width: 40%; */
+  width: 333px;
+  height: 190px;
+  background-color:rgba(0,0,0,0.5);
+  border-radius: 10px;
+  -moz-box-shadow:    inset 0 0 10px #000;
+  -webkit-box-shadow: inset 0 0 10px #000;
+  box-shadow:         inset 0 0 10px #000;
+  margin-bottom: 5px;
+}
+
+.main{
+  border-top: 1px solid #456789;
+}
+
+img {
+  width: 90px;
+  height: 90px;
+}
+
+h3 {
+  color: #fffff0;
+}
+.left {
+  float: left;
+  width: 30%;
+}
+
+.right {
+  float: right;
+  width: 70%;
+  font-size: 36px;
+  padding-top: 15px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+ul{
+  padding-left: 2px;
+  font-size: 16px;
+}
+li {
+  display: inline-block;
+  padding-right: 14px;
+
+}
+
+.f, .c {
+  margin-right: 5px;
+}
+.f {
+  margin-left: 15px;
+}
+.c {
+  margin-left: 5px;
+}
+
+.current {
+  color: #808090;
+}
+.f:hover, .c:hover {
+   cursor: pointer;
+}
+
+.sun{
+  height: 160px;
+}
+
+.half-circle {
+     margin-top: 10px;
+     margin-left: 65px;
+     height:100px;
+     width:200px;
+     border-top: 2px dashed rgba(255, 253, 69,0.9);
+     border-right: 2px dashed rgba(255, 140, 0.5);
+     border-left: 2px dashed rgba(255, 255, 0.9);
+     border-radius: 200px 200px 0 0;
+     -moz-border-radius: 200px 200px 0 0;
+     -webkit-border-radius: 100px 100px 0 0;
+}
+
+
+#underline {
+  height: 1px;
+  border: 0;
+  background: #FFF;
+  background: -webkit-gradient(linear, 0 0, 100% 0, from(rgba(255,255,0,0.5)), to(rgba(255, 69, 0,0.7)), color-stop(50%, #FFF));
+  margin-top: 0px;
+}

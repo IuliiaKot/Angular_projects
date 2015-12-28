@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+html, body, .main {
+  position: relatiave;
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+  width: 100%;
+  height: 100%;
+  background-color: #f1f5f7;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.section {
+  position: relative;
+  margin: 0 auto;
+  width: 85%;
+  top: 12%;
+  box-shadow: 2px 2px 2px #598290;
+  background: #fff;
+}
+
+.section a {
+  text-decoration: none;
+  color: black;
+}
+
+.section h2 {
+  padding-left: 30px;
+  padding-top: 12px;
+}
+
+.section p {
+  padding: 0px 9px 15px 30px;
+  text-aling: left;
+}
+
+.section:hover {
+  border-left: 10px solid #598290;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+}
+
+.searchTerm {
+  float: left;
+  width: 100%;
+  border: 3px solid #00B4CC;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus {
+  color: #598290;
+}
+
+.searchButton {
+  position: absolute;
+  right: -50px;
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.wrap {
+  width: 30%;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
